@@ -7,7 +7,6 @@ body {
 }
 
 .header {
-    background: #181818;
     background: rgba(0,0,0,.5);
     border-radius: 1em;
     color: aliceblue;
@@ -18,4 +17,25 @@ body {
     margin: 0 auto;
     margin-top: 1em;
     font-family: 'Quicksand', sans-serif;
+}
+
+.section {
+    background: url(http://motherboard-images.vice.com/content-images/article/no-id/1424976963986521.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    padding: 5em;
+    margin-top: 1em;
+    margin-left: -1em;
+    margin-right: 4em;
+}
+
+.game {
+    background: rgba(0,0,0,.92);
+    color: aliceblue;
+    margin: 20px;
+    margin-left: 0px;
+    padding: .5em;
+    font-family: 'Quicksand', sans-serif;
+}
+.game h1{
+    font-size: 8em;
 }
