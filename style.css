@@ -29,7 +29,7 @@ body {
 }
 
 .game {
-    background: rgba(0,0,0,.92);
+    background: rgba(0,0,0,.9);
     color: aliceblue;
     margin: 20px;
     margin-left: 0px;
@@ -38,4 +38,16 @@ body {
 }
 .game h1{
     font-size: 8em;
+    margin: 0px;
+}
+.game a{
+    target: "_blank";
+}
+.game img{
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 0em;
+    width: 2em;
+    height: 2em;
+    background-color: aliceblue;
 }
