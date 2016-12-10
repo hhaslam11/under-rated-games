@@ -40,9 +40,6 @@ body {
     font-size: 8em;
     margin: 0px;
 }
-.game a{
-    target: "_blank";
-}
 .game img{
     margin-bottom: 1em;
     margin-left: 1em;
