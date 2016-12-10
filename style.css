@@ -5,7 +5,6 @@ body {
     background-size: cover;
     background-position: top;
 }
-
 .header {
     background: rgba(0,0,0,.5);
     border-radius: 1em;
@@ -18,7 +17,6 @@ body {
     margin-top: 1em;
     font-family: 'Quicksand', sans-serif;
 }
-
 .section {
     background: url(http://motherboard-images.vice.com/content-images/article/no-id/1424976963986521.jpg) no-repeat center center;
     background-size: 100% 100%;
@@ -27,7 +25,6 @@ body {
     margin-left: -1em;
     margin-right: 25%;
 }
-
 .game {
     background: rgba(0,0,0,.9);
     color: aliceblue;
