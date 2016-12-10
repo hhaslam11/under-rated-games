@@ -18,8 +18,6 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 .section {
-    background: url(http://motherboard-images.vice.com/content-images/article/no-id/1424976963986521.jpg) no-repeat center center;
-    background-size: 100% 100%;
     padding: 5em;
     margin-top: 1em;
     margin-left: -1em;
@@ -44,4 +42,53 @@ body {
     width: 2em;
     height: 2em;
     background-color: aliceblue;
+}
+
+.shelter {
+    background: url(img/games/shelter.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.shelter2 {
+    background: url(img/games/shelter2.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+.paws {
+    background: url(img/games/paws.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+.firewatch {
+    background: url(img/games/firewatch.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+.lis {
+    background: url(img/games/lis.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+.twd {
+    background: url(img/games/twd.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+.pa {
+    background: url(img/games/pa.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+.uncle {
+    background: url(img/games/a-story-about-my-uncle.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+.tales {
+    background: url(img/games/tales-from-the-borderlands.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+.soma {
+    background: url(img/games/soma.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+.sevendays {
+    background: url(img/games/7-days-to-die.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.titanic {
+    float: none;
 }
