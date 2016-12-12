@@ -2,8 +2,7 @@
 
 body {
     background-image: url(img/firewatch_bg_header.jpg);
-    background-size: cover;
-    background-position: top;
+    background-repeat: repeat;
 }
 .header {
     background: rgba(0,0,0,.5);
