@@ -57,6 +57,10 @@ body {
     margin: 0px;
 }
 
+.footer ul{
+    text-align: right;    
+}
+
 .shelter {
     background: url(img/games/shelter.png) no-repeat center center;
     background-size: 100% 100%;
