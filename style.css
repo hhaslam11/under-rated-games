@@ -3,6 +3,7 @@
 body {
     background-image: url(img/bg.jpg);
     background-repeat: repeat;
+    font-family: 'Quicksand', sans-serif;
 }
 .header {
     background: rgba(0,0,0,.5);
@@ -28,7 +29,6 @@ body {
     margin: 20px;
     margin-left: 0px;
     padding: .5em;
-    font-family: 'Quicksand', sans-serif;
 }
 .game h1{
     font-size: 5vw;
@@ -56,14 +56,16 @@ body {
 }
 
 .footer h1 {
+    margin: 10px;
     float: left;
+    font-size: 1.5vw;
 }
 
 .footer ul li{
     display: inline-block;
     float: right;
-    padding-right: 50px;
-    font-size: 30px;
+    padding-right: 2%;
+    font-size: 1.5vw;
 }
 .footer a{
     text-decoration: none;
@@ -73,6 +75,8 @@ body {
     text-decoration: underline;
 }
 
+
+/* Games */
 .shelter {
     background: url(img/games/shelter.png) no-repeat center center;
     background-size: 100% 100%;
