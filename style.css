@@ -43,8 +43,7 @@ body {
     background-color: aliceblue;
 }
 
-.footer{
-    padding: 10px;
+.footer{    
     color: #FFF;
     background-color: rgba(0,0,0,.7);
     position: fixed;
@@ -58,14 +57,18 @@ body {
 .footer h1 {
     margin: 10px;
     float: left;
-    font-size: 1.5vw;
+    font-size: 1.3em;
 }
 
+.footer ul {
+    margin: 10px;
+    
+}
 .footer ul li{
     display: inline-block;
     float: right;
-    padding-right: 2%;
-    font-size: 1.5vw;
+    margin-right: 1em;
+    font-size: 1.3em;
 }
 .footer a{
     text-decoration: none;
