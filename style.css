@@ -55,21 +55,19 @@ body {
 }
 
 .footer h1 {
-    margin: 10px;
-    float: left;
-    font-size: 1.3em;
+    /*margin: 10px;*/
 }
 
 .footer ul {
-    margin: 10px;
+    /*margin: 10px;*/
     
 }
 .footer ul li{
     display: inline-block;
-    float: right;
     margin-right: 1em;
-    font-size: 1.3em;
+    font-size: 2em;
 }
+
 .footer a{
     text-decoration: none;
     color: #FFF;
@@ -78,6 +76,12 @@ body {
     text-decoration: underline;
 }
 
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
 
 /* Games */
 .shelter {
