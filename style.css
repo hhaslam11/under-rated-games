@@ -37,10 +37,10 @@ body {
 .game img{
     margin-bottom: 1em;
     margin-left: 1em;
-    margin-right: 0em;
-    width: 2em;
-    height: 2em;
+    width: 3em;
+    height: 3em;
     background-color: aliceblue;
+    border-radius: 5px;
 }
 
 .footer{    
