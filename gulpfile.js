@@ -7,6 +7,6 @@ gulp.task('sass', function(){
 		.pipe(gulp.dest('dist/'))
 });
 gulp.task('build', function(){
-	gulp.src('app/*.*')
+	gulp.src('app/**.*')
 		.pipe(gulp.dest('dist/'));
 });
