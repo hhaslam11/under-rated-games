@@ -21,6 +21,9 @@ gulp.task('cleanup', function(){
 	del(['dist/*.scss']);
 	del(['dist/img/*.svg']);
 });
+gulp.task('del-dist', function(){
+	del(['dist/']);
+});
 gulp.task('default', function(){
 	gulp.start('sass');
 	gulp.start('build');
