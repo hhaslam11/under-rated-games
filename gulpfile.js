@@ -6,3 +6,7 @@ gulp.task('sass', function(){
 		.pipe(sass())
 		.pipe(gulp.dest('dist/'))
 });
+gulp.task('build', function(){
+	gulp.src('app/*.*')
+		.pipe(gulp.dest('dist/'));
+});
