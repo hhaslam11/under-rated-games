@@ -1,0 +1,22 @@
+{
+  "name": "under-rated-games.com",
+  "version": "1.0.0",
+  "description": "Games that deserve more love and attention.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hhaslam11/under-rated-games.git"
+  },
+  "author": "Kaleb Haslam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hhaslam11/under-rated-games/issues"
+  },
+  "homepage": "https://github.com/hhaslam11/under-rated-games#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
