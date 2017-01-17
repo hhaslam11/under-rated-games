@@ -2,31 +2,34 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var del = require('del');
 var tinify = require('gulp-tinify');
+var rs = require('run-sequence');
 
 gulp.task('sass', function(){
 	return gulp.src('app/style.scss')
 		.pipe(sass())
 		.pipe(gulp.dest('dist/'));
+	console.log("Finished compiling SASS");
 });
 gulp.task('tinify', function() {
-    gulp.src('app/img/**/*')
+    return gulp.src('app/img/**/*')
         .pipe(tinify('9uVaRvxkSPRGFdninata0e0bzfFRVgar'))
         .pipe(gulp.dest('/dist/img'));
 });
 gulp.task('build', function(){
-	gulp.src(['app/**/*'])
+	return gulp.src(['app/**/*'])
 		.pipe(gulp.dest('dist/'));
 });
 gulp.task('cleanup', function(){
+	console.log("Starting cleanup");
 	del(['dist/*.scss']);
-	del(['dist/img/*.svg']);
+	return del(['dist/img/*.svg']);
 });
 gulp.task('del-dist', function(){
-	del(['dist/']);
+	return del(['dist/']);
 });
 gulp.task('default', function(){
-	gulp.start('sass');
-	gulp.start('build');
-	gulp.start('tinify');
-	gulp.start('cleanup');
+	rs('sass',
+	   'build',
+	   'tinify',
+	   'cleanup');
 });
