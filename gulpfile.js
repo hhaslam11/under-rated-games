@@ -21,6 +21,8 @@ gulp.task('tinify', function() {
 gulp.task('build', function(){
 	gulp.src('app/index.html')
 		.pipe(gulp.dest('dist/m/'));
+	gulp.src('app/img/**/*')
+		.pipe(gulp.dest('dist/m/img'));
 	gulp.src(['app/.*'])
 		.pipe(gulp.dest('dist/'));
 	gulp.src(['app/m/.*'])
