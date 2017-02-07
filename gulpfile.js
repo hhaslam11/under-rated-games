@@ -4,7 +4,7 @@ var del = require('del');
 var tinify = require('gulp-tinify');
 var rs = require('run-sequence');
 var htmlmin = require('gulp-htmlmin');
-var clean_css = require('clean-css');
+var cleanCSS = require('gulp-clean-css');
 
 gulp.task('sass', function(){
 	gulp.src('app/m/style.scss')
@@ -38,7 +38,10 @@ gulp.task('del-dist', function(){
 	return del(['dist/']);
 });
 gulp.task('minify', function() {
-  return gulp.src('dist/*.html')
+	gulp.src('dist/**/*.css')
+	    .pipe(cleanCSS({compatibility: 'ie8'}))
+	    .pipe(gulp.dest('dist'));
+	return gulp.src('dist/*.html')
     .pipe(htmlmin({
 			collapseWhitespace: true,
 			minifyJS: true
@@ -49,5 +52,6 @@ gulp.task('default', function(){
 	rs('sass',
 	   'build',
 	   'tinify',
+		 'minify',
 	   'cleanup');
 });
